@@ -4,8 +4,8 @@
 
   </head>
   <body>
-    <% shakespeare = DateTime.iso8601('1751-04-23', Date::ENGLAND) %>
-    <p><%= "The date is #{shakespeare}, " %></p>
+    <% d = Date.new %>
+    <p><%= "The date is #{d.strftime('%a %d %b %Y')} " %></p>
   </body>
 
 
